@@ -5,7 +5,7 @@ import time
 AWS_REGION = 'us-west-2'
 
 # Create a session using 'herovired' profile
-session = boto3.Session(profile_name="herovired", region_name=AWS_REGION)
+session = boto3.Session(profile_name="vivekpwd", region_name=AWS_REGION)
 
 # Initialize all clients
 s3 = session.client('s3')
